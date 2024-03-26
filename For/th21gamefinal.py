@@ -42,7 +42,7 @@ while True:
             current_player = 0
 
     #chơi lại hay không
-    play_again=input('Would you like to play again? ')
+    play_again=input('Có muốn chơi tiếp không bạn tôi? ')
     if play_again.lower().startswith("y"):
       continue
     else: 
