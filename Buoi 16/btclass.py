@@ -1,11 +1,11 @@
 class HCN: 
     cd = 0 
     cr = 0 
-    def dientich(n):
-        dientichcuan = n.cd * n.cr 
+    def dientich(self):
+        dientichcuan = self.cd *self.cr 
         return dientichcuan
-    def tinhchuvi(n):
-        return 2 * (n.cd+n.cr)
+    def tinhchuvi(self):
+        return 2 * (self.cd+self.cr)
 #khoi tao doi tuong hcn 1
 hcn_1 = HCN() 
 hcn_1.cd = 4
